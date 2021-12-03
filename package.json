@@ -1,0 +1,20 @@
+{
+  "name": "electron",
+  "version": "1.0.0",
+  "description": "psychiatry",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder",
+    "postinstall": "electron-builder install-app-deps"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "electron-builder": "^22.14.5",
+    "electron": "^16.0.1"
+  }
+}
