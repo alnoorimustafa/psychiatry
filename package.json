@@ -1,5 +1,5 @@
 {
-  "name": "electron",
+  "name": "psychiatry",
   "version": "1.0.0",
   "description": "psychiatry",
   "main": "main.js",
@@ -10,9 +10,11 @@
     "postinstall": "electron-builder install-app-deps"
   },
   "keywords": [],
-  "author": "",
+  "author": "Dr Mustafa Alnoori",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "uaup-js": "0.0.22"
+  },
   "devDependencies": {
     "electron-builder": "^22.14.5",
     "electron": "^16.0.1"
