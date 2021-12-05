@@ -1,39 +1,29 @@
-.ggg {
+#ggg {
   color: #fff;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(35, 105, 96);
+  border-radius: 25px;
   width: 250px;
-  height: 250px;
-  position: fixed;
+  height: auto;
+  position: absolute;
+  margin: auto;
   top: 50%;
   left: 50%;
-  transform: translateX(-50);
-}
-
-#control {
-  -webkit-app-region: drag;
-  width: 100%;
-  height: 100vh;
-  z-index: 99;
-  top: 0;
-  left: 0;
-  position: absolute;
-  background: transparent;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 #download {
-  position: absolute;
+  text-align: center;
   bottom: 15px;
   width: 80%;
-  left: 10%;
+  /* left: 10%; */
   height: 25px;
 }
 
 #download-label {
-  position: absolute;
-  top: 20vh;
   width: 97%;
   text-align: center;
-  font-size: 48px;
+  font-size: 30px;
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
 }
